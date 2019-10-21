@@ -1,0 +1,13 @@
+{
+  "db": {
+    "host": "cluster0-bw01z.gcp.mongodb.net",
+    "port": 0,
+    "url": "mongodb+srv://rumba:1234@cluster0-bw01z.gcp.mongodb.net/test?retryWrites=true&w=majority",
+    "database": "rumba",
+    "password": "1234",
+    "name": "db",
+    "user": "rumba",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}

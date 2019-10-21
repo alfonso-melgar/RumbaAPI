@@ -1,0 +1,41 @@
+{
+  "name": "rumba",
+  "plural": "rumba",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "velocidad": {
+      "type": "string",
+      "required": true
+    },
+    "distancia":{
+      "type":"string",
+      "required":true
+    },
+    "tViaje":{
+      "type":"string",
+      "required":true
+    },
+    "objetos":{
+      "type":"string",
+      "required":true
+    },
+    "tDecision":{
+      "type":"string",
+      "required":true
+    },
+    "logTime":{
+      "type": "date",
+      "dataType":"timestamp",
+      "defaultFn": "now"
+    }
+
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
