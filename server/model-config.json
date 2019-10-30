@@ -20,5 +20,9 @@
   "rumba": {
     "dataSource": "db",
     "public": true
+  },
+  "coord": {
+    "dataSource": "db",
+    "public": true
   }
 }

@@ -11,28 +11,27 @@
       "type": "string",
       "required": true
     },
-    "distancia":{
-      "type":"string",
-      "required":true
+    "distancia": {
+      "type": "string",
+      "required": true
     },
-    "tViaje":{
-      "type":"string",
-      "required":true
+    "tViaje": {
+      "type": "string",
+      "required": true
     },
-    "objetos":{
-      "type":"string",
-      "required":true
+    "objetos": {
+      "type": "string",
+      "required": true
     },
-    "tDecision":{
-      "type":"string",
-      "required":true
+    "tDecision": {
+      "type": "string",
+      "required": true
     },
-    "logTime":{
+    "logTime": {
       "type": "date",
-      "dataType":"timestamp",
+      "dataType": "timestamp",
       "defaultFn": "now"
     }
-
   },
   "validations": [],
   "relations": {},
